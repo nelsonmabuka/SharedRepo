@@ -5,9 +5,12 @@ p{
   color: white;
   width: 560px;
   cursor: pointer;
-  transition: background-color 1s, color 1s;
+  transition: background-color 1s, color 1s,;
 }
 p:hover{
   background-color: white;
   color: blue;
+}
+p:active{
+  opacity: 0.5;
 }
