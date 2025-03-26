@@ -7,8 +7,16 @@
 </head>
 <body>
    <h2>Welcome to uor home page </h2> 
-  <!--<p> <%= names %></p>--> 
-  <p> {{names}}</p>
+  <p> <%= names %></p>
+  <form action="register" method="post">
+  <label>Name</label><br>
+  <input required type="hidden" placeholder="Enter your Name" id="Name" name="nme" h><br>
+  <label>Email</label><br>
+  <input required type="email" placeholder="Enter your Email" id="Email" name="email"><br>
+  <label>Admission Number</label><br>
+  <input required type="text" placeholder="Enter your Admission Number" id="AdmnNo" name="admnNo"><br>
+  <button type="submit">Register</button><br>
+  </form>
   
    
 </body>
