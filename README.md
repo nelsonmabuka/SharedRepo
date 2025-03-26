@@ -1,3 +1,4 @@
+HEAD
 # online-shop
 
 Full-featured e-commerce application built using Python Django for the backend and Bootstrap for the frontend. It offers a robust and scalable platform for managing and showcasing products with features like user authentication, product search, and tagging. The application includes dynamic functionalities such as top products with star ratings, related products, and most-viewed products powered by IP-based middleware. Users can register, log in, browse products, and view their order history seamlessly. The project is designed with separated development and production settings, modular requirements files, and an example app with a custom user model, ensuring ease of deployment and extensibility.
@@ -18,7 +19,7 @@ Full-featured e-commerce application built using Python Django for the backend a
 
 * Top Products with star rating
 
-* Related Products 
+* Related Products
 
 * Most viewed Products with IP Middleware
 
@@ -26,7 +27,7 @@ Full-featured e-commerce application built using Python Django for the backend a
 
 * product tag with taagit
 
-* User order history 
+* User order history
 
 
 # Getting Started
@@ -35,7 +36,7 @@ To use this template to start your own project:
 clone the project
 
     git clone https://github.com/amirhossein-bayati/online-shop.git
-    
+
 create and start a a virtual environment
 
     virtualenv env --no-site-packages
@@ -58,7 +59,7 @@ create a postgres db and add the credentials to settings.py
             'PORT': '',
         }
     }
-    
+
 then run
 
     python manage.py migrate
@@ -66,7 +67,7 @@ then run
 create admin account
 
     python manage.py createsuperuser
-      
+
 then
 
     python manage.py makemigrations
@@ -82,3 +83,7 @@ to start the development server
     python manage.py runserver
 
 and open localhost:8000 on your browser to view the app.
+=======
+# SharedRepo
+A website collaboration
+ 2cd3c137457dbbb90ab13f5f8dc0c4805ed156bf
